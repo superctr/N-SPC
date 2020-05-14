@@ -1,0 +1,289 @@
+;				*equ data for sony
+;************************************************
+;
+;************************************************
+.define c00 000+80h
+.define c01 001+80h			; #
+.define c0s 001+80h			; #
+.define d0f 001+80h			; b
+.define d00 002+80h
+.define d01 003+80h			; #
+.define d0s 003+80h			; #
+.define e0f 003+80h			; b
+.define e00 004+80h
+.define f00 005+80h
+.define f01 006+80h			; #
+.define f0s 006+80h			; #
+.define g0f 006+80h			; b
+.define g00 007+80h
+.define g01 008+80h			; #
+.define g0s 008+80h			; #
+.define a0f 008+80h			; b
+.define a00 009+80h
+.define a01 010+80h			; #
+.define a0s 010+80h			; #
+.define b0f 010+80h			; b
+.define b00 011+80h
+;
+.define c10 012+80h
+.define c11 013+80h			; #
+.define c1s 013+80h			; #
+.define d1f 013+80h			; b
+.define d10 014+80h
+.define d11 015+80h			; #
+.define d1s 015+80h			; #
+.define e1f 015+80h			; b
+.define e10 016+80h
+.define f10 017+80h
+.define f11 018+80h			; #
+.define f1s 018+80h			; #
+.define g1f 018+80h			; b
+.define g10 019+80h
+.define g11 020+80h			; #
+.define g1s 020+80h			; #
+.define a1f 020+80h			; b
+.define a10 021+80h
+.define a11 022+80h			; #
+.define a1s 022+80h			; #
+.define b1f 022+80h			; b
+.define b10 023+80h
+;
+.define c20 024+80h
+.define c21 025+80h			; #
+.define c2s 025+80h			; #
+.define d2f 025+80h			; b
+.define d20 026+80h
+.define d21 027+80h			; #
+.define d2s 027+80h			; #
+.define e2f 027+80h			; b
+.define e20 028+80h
+.define f20 029+80h
+.define f21 030+80h			; #
+.define f2s 030+80h			; #
+.define g2f 030+80h			; b
+.define g20 031+80h
+.define g21 032+80h			; #
+.define g2s 032+80h			; #
+.define a2f 032+80h			; b
+.define a20 033+80h
+.define a21 034+80h			; #
+.define a2s 034+80h			; #
+.define b2f 034+80h			; b
+.define b20 035+80h
+;
+.define c30 036+80h
+.define c31 037+80h			; #
+.define c3s 037+80h			; #
+.define d3f 037+80h			; b
+.define d30 038+80h
+.define d31 039+80h			; #
+.define d3s 039+80h			; #
+.define e3f 039+80h			; b
+.define e30 040+80h
+.define f30 041+80h
+.define f31 042+80h			; #
+.define f3s 042+80h			; #
+.define g3f 042+80h			; b
+.define g30 043+80h
+.define g31 044+80h			; #
+.define g3s 044+80h			; #
+.define a3f 044+80h			; b
+.define a30 045+80h
+.define a31 046+80h			; #
+.define a3s 046+80h			; #
+.define b3f 046+80h			; b
+.define b30 047+80h
+;
+.define c40 048+80h
+.define c41 049+80h			; #
+.define c4s 049+80h			; #
+.define d4f 049+80h			; b
+.define d40 050+80h
+.define d41 051+80h			; #
+.define d4s 051+80h			; #
+.define e4f 051+80h			; b
+.define e40 052+80h
+.define f40 053+80h
+.define f41 054+80h			; #
+.define f4s 054+80h			; #
+.define g4f 054+80h			; b
+.define g40 055+80h
+.define g41 056+80h			; #
+.define g4s 056+80h			; #
+.define a4f 056+80h			; b
+.define a40 057+80h
+.define a41 058+80h			; #
+.define a4s 058+80h			; #
+.define b4f 058+80h			; b
+.define b40 059+80h
+;
+.define c50 060+80h
+.define c51 061+80h			; #
+.define c5s 061+80h			; #
+.define d5f 061+80h			; b
+.define d50 062+80h
+.define d51 063+80h			; #
+.define d5s 063+80h			; #
+.define e5f 063+80h			; b
+.define e50 064+80h
+.define f50 065+80h
+.define f51 066+80h			; #
+.define f5s 066+80h			; #
+.define g5f 066+80h			; b
+.define g50 067+80h
+.define g51 068+80h			; #
+.define g5s 068+80h			; #
+.define a5f 068+80h			; b
+.define a50 069+80h
+.define a51 070+80h			; #
+.define a5s 070+80h			; #
+.define b5f 070+80h			; b
+.define b50 071+80h
+;
+.define xxx 072+80h
+.define tie 072+80h
+.define yyy 073+80h
+.define kyu 073+80h
+;
+.define dd0 074+80h
+.define sd00 074+80h
+.define sd01 075+80h
+.define sd02 076+80h
+.define sd03 077+80h
+.define sd04 078+80h
+.define sd05 079+80h
+.define sd06 080+80h
+.define sd07 081+80h
+.define sd08 082+80h
+.define sd09 083+80h
+.define sd10 084+80h
+.define sd11 085+80h
+.define sd12 086+80h
+.define sd13 087+80h
+.define sd14 088+80h
+.define sd15 089+80h
+.define sd16 090+80h
+.define sd17 091+80h
+.define sd18 092+80h
+.define sd19 093+80h
+;
+.define rh0 074+80h
+.define rh1 075+80h
+.define rh2 076+80h
+.define rh3 077+80h
+;			-Edit: notes from https://wiki.superfamicom.org/nintendo-music-format-(n-spc)
+.define sno 096+80h		;E0 Set instrument
+.define pan 097+80h		;E1 Set panning
+.define pam 098+80h		;E2 Set pan slide
+.define vib 099+80h		;E3 Vibrato
+.define vof 100+80h		;E4 Vibrato off
+.define mv1 101+80h		;E5 Master volume
+.define mv2 102+80h		;E6 Master volume slide
+.define tp1 103+80h		;E7 Tempo
+.define tp2 104+80h		;E8 Tempo slide
+.define ktp 105+80h		;E9 Transpose
+.define ptp 106+80h		;EA Part transpose
+.define tre 107+80h		;EB Tremolo
+.define tof 108+80h		;EC Tremolo off
+.define pv1 109+80h		;ED Part volume
+.define pv2 110+80h		;EE Part volume slide
+.define pat 111+80h		;EF Subroutine (pattern)
+.define vch 112+80h		;F0 Vibrato slide
+.define swk 113+80h		;F1 Pitch slide to
+.define sws 114+80h		;F2 Pitch slide from
+.define sof 115+80h		;F3 Pitch slide off
+.define tun 116+80h		;F4 Tuning
+;
+.define ecv 117+80h		;F5 Echo volume
+.define eof 118+80h		;F6 Echo off
+.define edl 119+80h		;F7 Echo parameters
+.define ev2 120+80h		;F8 Echo volume slide
+;
+.define swp 121+80h		;F9 Pitch slide
+;
+.define wav 122+80h		;FA Set wave number
+;
+.define sel 123+80h		;FB (dummy)
+.define cut 124+80h		;FC Mute flag?
+.define fft 125+80h		;FD Fast-forward on
+.define ply 126+80h		;FE Fast-forward off
+;
+.define fast 00080h			; F.F.
+.define play 00081h			; play
+;************************************************
+;
+;
+;************************************************
+.define p99	070h
+.define p90	060h
+.define p80	050h
+.define p70	040h
+.define p60	030h
+.define p50	020h
+.define p40	010h
+.define p20	000h
+;
+.define v99	00fh
+.define v90	00eh
+.define v80	00dh
+.define v70	00ch
+.define v60	00bh
+.define v55	00ah
+.define v50	009h
+.define v45	008h
+.define v40	007h
+.define v35	006h
+.define v30	005h
+.define v25	004h
+.define v20	003h
+.define v15	002h
+.define v10	001h
+;************************************************
+.define n32 003
+.define n16 006
+.define n80 012
+.define n40 024
+.define n20 048
+.define n10 096
+;
+.define n81 018
+.define n85 018
+.define n41 036
+.define n45 036
+.define n21 072
+.define n25 072
+.define n83 008
+.define n43 016
+;************************************************
+;
+;
+;
+;
+;
+; <<<<<<<<<<<<<<<<<<<<  Velocity & Gate  >>>>>>>>>>>>>>>>>>>>>
+
+.define P00 $00
+.define P01 $10
+.define P02 $20
+.define P03 $30
+.define P04 $40
+.define P05 $50
+.define P06 $60
+.define P07 $70
+
+.define V00	$00
+.define V01	$01
+.define V02	$02
+.define V03	$03
+.define V04	$04
+.define V05	$05
+.define V06	$06
+.define V07	$07
+.define V08	$08
+.define V09	$09
+.define V10	$0A
+.define V11	$0B
+.define V12	$0C
+.define V13	$0D
+.define V14	$0E
+.define V15	$0F
